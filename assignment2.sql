@@ -12,7 +12,7 @@ Connected to:
 Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
 Version 21.3.0.0.0
 
-SQL> /*
+SQL> 
 SQL> CREATE TABLE Department (
 SQL>     dept_id VARCHAR2(10) PRIMARY KEY,
 SQL>     dept_name VARCHAR2(100) NOT NULL,
@@ -122,7 +122,7 @@ SQL> SELECT * FROM Course;
 SQL> SELECT * FROM Student;
 SQL> SELECT * FROM Enrollment;
 SQL>
-SQL> */
+SQL> 
 SQL>
 SQL> INSERT INTO Student VALUES ('S26','Akash Dubey', TO_DATE('2003-01-12','YYYY-MM-DD'),'M','9000000026','D01');
 INSERT INTO Student VALUES ('S26','Akash Dubey', TO_DATE('2003-01-12','YYYY-MM-DD'),'M','9000000026','D01')
@@ -472,3 +472,4 @@ ORA-00947: not enough values
 
 
 SQL> INSERT INTO Student VALUES ('S75','Ritu Malhotra', TO_DATE('2004-02-09','YYYY-MM-DD'),'F','9000000075','D02')
+
